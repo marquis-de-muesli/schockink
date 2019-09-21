@@ -1,7 +1,7 @@
 How small can you go while keeping the full power and same features of a mk-312 box? :)
 Much thanks goes to metafetish and the buttshock project where i got started with the schematics.
 
-To save cost and space, the entire control panel with LCD and mechanical buttons is gone.
+To save cost and space, the entire control panel with LCD and mechanical buttons had to go.
 The idea is to make a bluetooth app to take control instead.
 
 Another major difference is that instead of a simple bluetooth bridge (HC05) i plopped in a whole new powerfull MCU (ESP32) on top of the original hardware.
@@ -9,3 +9,7 @@ The reason is twofold.
 - The one thing we cant really replace with the ErosLink Protocol is the MA Knob, which is now replaced by a DigPot controlled by our new MCU.
 - Eventually the idea is to tinker around with a new firmware from scratch, not just reuse the ET312 one.
   This Design allows to take full control of the Output Stage in the future.
+
+Power will be supplied by 3x 18650 Lithium Cells. 
+As of right now i haven't been able to cram in a charging circuit. So for now they are removable and charged in a tabletop charger.
+The unintended side effect is that you could keep a spare set of batteries charged.
