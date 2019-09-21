@@ -1,4 +1,8 @@
-How small can you go while keeping the full power and same features of a mk-312 box? :)
+NOTE: Schematics+Board are still IN-PROGRESS, i will announce once i am confident enough in them to put them into production myself.
+
+How small can you go while keeping the full power and same (+more) features of a mk-312 box? :)
+The answer is about 90x70x35mm, or about 1/8th of the original box.
+
 Much thanks goes to metafetish and the buttshock project where i got started with the schematics.
 
 To save cost and space, the entire control panel with LCD and mechanical buttons had to go.
